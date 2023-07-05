@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+}
+
+.btn-filtro2{
+  background-color: #242C3C;
+  border: solid;
+  border-radius: 10px;
+  border-color: #019CB8;
+  border-width: 1.5px;
+  height: 33px;
+  width: 100%;
+  color: white;
+  padding: 0px 0px 0px 40px;
+
+}
+
+.container-search{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container-filter{
+  display: flex;
+  position: relative;
+}
+
+.icon-container{
+  position: absolute;
+  background-color: #019CB8 ;
+  width: 36.3px;
+  height: 32.67px;
+  border-radius: 10px;
+  border: none;
+  bottom: 0.1px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.icon{
+  margin: 0 auto;
+  width: 18.15px;
+  width: 18.5px;
+}
